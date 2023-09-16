@@ -1,4 +1,4 @@
-# Cliente UDP em Ruby para Envio de Resultados de Comandos
+# Cliente UDP em Ruby para exfiltração de dados
 
 Este é um cliente UDP simples em Ruby que permite enviar o resultado de comandos especificados como parâmetro para um servidor UDP em uma máquina remota.
 
