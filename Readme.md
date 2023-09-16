@@ -16,7 +16,7 @@ Siga estas etapas para usar o cliente UDP em Ruby:
 1. Abra um terminal.
 2. Navegue até o diretório onde o código Ruby está localizado.
 
-### Comandos
+### Comandos Cliente
 
 O cliente espera um comando como argumento na linha de comando. Você pode especificar qualquer comando que você normalmente executaria no terminal. O resultado desse comando será enviado ao servidor UDP.
 
@@ -60,6 +60,11 @@ loop do
   puts "Mensagem recebida de #{address[3]}:#{address[1]}:"
   puts message
 end
+```
+### Inicializaçao do servidor
+
+```bash
+ruby udp_server.rb
 ```
 
 Este é apenas um exemplo básico de um servidor UDP. Você pode personalizá-lo para atender às suas necessidades específicas.
